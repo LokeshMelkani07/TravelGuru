@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGuru</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="icon" href="image.ico">
+</head>
+<body>
+
+   <!-- Header -->
+   <header>
+
+       <!-- Hamburger Menu -->
+       <div id="menu-bar" class="fas fa-bars"></div>
+
+       <a href="#" class="logo"><span><i class="fa-solid fa-plane"> Guru</i></span></a>
+
+       <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">book</a>
+        <a href="#packages">Package</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+       </nav>
+
+       <div class="icons">
+           <!-- <i class="fa fa-search" id="search-btn"></i> -->
+           <!-- <i class="fa fa-user" id="login-btn"></i> -->
+           <i id="search-btn"><img src="iconsSearch.png" alt=""></i>
+           <i id="login-btn"><img src="iconsAcc.png" alt=""></i>
+        </div>
+
+        <form action="" class="search">
+            <input type="search" id="searchBox" placeholder="Search Here...">
+            <label for="searchBox" class="fas fa-search"></label>
+
+       </form>
+   </header>
+
+
+    <!-- login form -->
+    <div class="login-form">
+
+        <i class="fa-solid fa-xmark" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <!-- <input type="submit" class="btn" placeholder="login now" name="Submit"> -->
+            <button class="btn">login now</button>
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forget Password <a href="#">Click here</a></p>
+            <p>Don't have an account <a href="#">Register here</a></p>
+        </form>
+    </div>
+
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>To Travel is to Live</h3>
+            <p>Discover new places because Adventure is worthwhile in itself.</p>
+            <a href="#" class="btn">Discover more</a>
+        </div>
+
+        <div class="video-box">
+            <video src="vid.mp4" id="video-adventure" loop autoplay muted ></video>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="travel.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Destination</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>Number of adventurers</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="mumbai.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                    <p>Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. <a href="https://en.wikipedia.org/wiki/Mumbai">read more</a></p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 10,000 <span>20,000</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="delhi.webp" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Delhi </h3>
+                    <p>Delhi, India’s capital territory, is a massive metropolitan area in the country’s north. <a href="https://en.wikipedia.org/wiki/Delhi">read more</a></p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 5,000 <span>10,000</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="uk.webp" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Uttarakhand </h3>
+                    <p>Uttarakhand, a state in northern India Himalayas, is known for its Hindu pilgrimage sites.  <a href="https://en.wikipedia.org/wiki/Uttarakhand">read more</a></p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> 30,000 <span>50,000</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="kashmir.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Jammu & Kashmir </h3>
+                    <p>Jammu and Kashmir was a region formerly administered by India as a state from 1954 to 2019 <a href="https://en.wikipedia.org/wiki/Kashmir">read more</a></p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> 50,000 <span>80,000</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="ladakh.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> ladakh </h3>
+                    <p>Ladakh is a region administered by India as a union territory<a href="https://en.wikipedia.org/wiki/Ladakh">read more</a></p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 40,000 <span>60,000</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section starts -->
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Get Luxury Stay at cheaper rates because when we take rest our energy gets restored</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Get Amazing Food and Drinks and enjoy the adventure with your friends and family</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Get a Safety guide so that your adventure get much smoother</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Travel Around the world with your familt and friends without taking stress about other arrangements</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Travel fast because time is money and your comfort is our number one priority</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>do amazing adventures & activities and a lifetime of a experience</p>
+            </div>
+        </div>
+    </section>
+
+<!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="ama10.jpg" alt="">
+            <div class="content">
+                <h3>Roopkund Trek</h3>
+                <p>A heaven for trekkers, but with a horrific twist as you head to the glacial Roopkund Lake. </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama11.webp" alt="">
+            <div class="content">
+                <h3>Motorcycle Touring</h3>
+                <p>Ladakh is undoubtedly one of the best destination for an adventure trip in India.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama3.webp" alt="">
+            <div class="content">
+                <h3>Caving-Meghalaya</h3>
+                <p>Caving being one of the best adventure sports in India, Meghalaya, with its captivating caves is the go-to spot.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama5.jpg" alt="">
+            <div class="content">
+                <h3>Skydiving</h3>
+                <p>Once in your life, you must have desired to fly freely like a bird.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama4.webp" alt="">
+            <div class="content">
+                <h3>Flyboarding – Goa</h3>
+                <p>ou go to Goa and don’t head for some water fun – kya yaar! Goa is one of the best places to do adventure sports in India.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama6jpg.jpg" alt="">
+            <div class="content">
+                <h3>Rock Climbing </h3>
+                <p>With bold terrain, Satpura mountain range in Madhya Pradesh offers remarkable rock climbing extravaganza</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama7.jpg" alt="">
+            <div class="content">
+                <h3>Bungee Jumping</h3>
+                <p>With the highest, 83-freaking-meters of Bungee Jumping podium, enjoy weightlessness</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama8.webp" alt="">
+            <div class="content">
+                <h3>Scuba Diving </h3>
+                <p>Serene and secluded Barren in Islands offer adventurous scuba diving experience.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ama9.webp" alt="">
+            <div class="content">
+                <h3> Paragliding </h3>
+                <p>one of the popular adventure sports destinations in India. Located in Himachal Pradesh</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Review Section Begins -->
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="lokesh.jpeg" alt="">
+                        <h3>Lokesh Melkani</h3>
+                        <p>I went to Uttarakhand using this website. I had a great time there, I recommend it to everybody, Must try it</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="lakshay.jpeg" alt="">
+                        <h3>Lakshay Goel</h3>
+                        <p>I am a factory owner with over 80 Lakh turnover , I went to ladakh using this website and i recommend the service to everyone , Amazing Experience Would love to go again !!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="amit.jpeg" alt="">
+                        <h3>Amit Pandey</h3>
+                        <p>Good Experience but the food service might be improved a little. Overall Great Experience</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="mohit.jpeg" alt="">
+                        <h3>Mohit Pal</h3>
+                        <p>Went to Maldives with my wife through this service. My wife enjoyed a lot.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="contact.webp" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send">
+        </form>
+
+    </div>
+</section>
+
+<!-- sponser section  -->
+<section class="brand-container">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>p</span>
+        <span>o</span>
+        <span>n</span>
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>s</span>
+    </h1>
+    <div class="sponser">
+        <div class="sponsers">
+            <div class="brand"><img src="brand1.png" alt=""></div>
+            <div class="brand"><img src="brand2.jpg" alt=""></div>
+            <div class="brand"><img src="brand3.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+    <!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Travel Guru is your Ultimate travel partner. We provide you many services and make your travel smooth and memorable.<br>
+            See You Soon🙏</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Delhi</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Hyderabad</a>
+            <a href="#">Bangalore</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+    <h1 class="credit"> Copyright©<span>TravelGuru</span> | all rights reserved </h1>
+    <script src="/js/index.js"></script>
+</body>
+</html>
