@@ -15,8 +15,10 @@ Bungee Jumping , Scuba Diving and many more..
 5. You can also gather information aboout the places by going to read more section and read about the place in wikipedia
 6. our sponsers are air asia , zomato and trivago as shown in the website
 7. There is a contact form also through which you can contact us.
-   Hope to see you soon.. 
-
+   Hope to see you soon..
+   
+Certificate of Hackathon participated in : 
+![certificate](https://user-images.githubusercontent.com/93420193/183107997-3b0335e5-0440-410a-b464-1d413e89718c.jpg)
 <img width="960" alt="1" src="https://user-images.githubusercontent.com/93420193/168091108-7893973c-b6ab-4d3c-97f9-899bc24aaa93.png">
 <img width="960" alt="2" src="https://user-images.githubusercontent.com/93420193/168091127-4214968a-3e67-45fa-91cd-3bf3592bbf03.png">
 <img width="960" alt="3" src="https://user-images.githubusercontent.com/93420193/168091148-07b05f5d-a78f-4d7e-afb0-6ec66528fbe4.png">
